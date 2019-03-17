@@ -55,5 +55,7 @@
 	"spritesheet_error_bad_parameter": "Parameter \"$1\" is not recognized.",
 	"spritesheet_error_parameter_required": "Parameter \"$1\" is required to be supplied.",
 	"spritesheet_error_invalid_option": "The option specified, \"$2\", for parameter \"$1\" is not a valid option for that parameter.",
-	"slice_error_mixed_units": "Mixed units of measurement are not allowed.  Please specify only percentage(%) or pixels(px)."
+	"slice_error_mixed_units": "Mixed units of measurement are not allowed.  Please specify only percentage(%) or pixels(px).",
+	"right-edit_sprites": "Edit spritesheets, sprites, slices, assign names, and delete",
+	"right-spritesheet_rollback": "Rollback spritesheet changes from the change log"
 }
