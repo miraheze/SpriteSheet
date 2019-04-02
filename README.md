@@ -7,7 +7,7 @@ The **SpriteSheet** extension allows uploaded images to be divided into sprite s
 * **Licensing:** SpriteSheet is released under [The GNU Lesser General Public License, version 3.0](http://opensource.org/licenses/lgpl-3.0.html).
 
 
-#Installation
+# Installation
 
 Download and place the file(s) in a directory called SpriteSheet in your extensions/ folder.
 
@@ -21,7 +21,7 @@ Enter the following command into your console or terminal on the server to updat
 
 Done! Navigate to "Special:Version" on your wiki to verify that the extension is successfully installed.
 
-#Configuration
+# Configuration
 There are two available rights that may be assigned to groups, 'edit_sprites' and 'spritesheet_rollback'.  The 'edit_sprites' permission gives the ability to edit sprite sheets, sprites, slices, assign names, and delete.  The 'spritesheet_rollback' allows the ability to rollback changes from the change log.
 
 Default permissions:
@@ -29,13 +29,13 @@ Default permissions:
 	$wgGroupPermissions['autoconfirmed']['edit_sprites'] = true;
 	$wgGroupPermissions['sysop']['spritesheet_rollback'] = true;
 
-#Usage
+# Usage
 
 ![](documentation/BasicInterface.png)
 
-##Tags
+## Tags
 
-###\#sprite - Parser Tag
+### \#sprite - Parser Tag
 The #sprite tag format accepts X and Y coordinate positions to select a section of the image in a traditional column and row format.
 
 Basic Syntax:
@@ -60,7 +60,7 @@ With optional resize and link:
 	|link=ExampleArticle
 	}}
 
-####Parameters for #sprite Tag
+#### Parameters for #sprite Tag
 
 | Parameter | Description                                                                                                                                      |
 |----------:|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ With optional resize and link:
 | resize    | **Required**: no, **Default**: null<br/>Display size in pixel width of the sprite.  Note: Will not resize larger than 100% of the original size. |
 | link      | **Required**: no, **Default**: null<br/>Page name or external URL to have the sprite link to.                                                    |
 
-####Example
+#### Example
 
 To display the sprite located at column 4, row 2:
 <pre>{{#sprite:
@@ -82,7 +82,7 @@ file=File:Hanamura-screenshot.jpg
 ![](documentation/SpriteUsageExample.png)
 
 
-###\#ifsprite - Parser Tag
+## \#ifsprite - Parser Tag
 The #ifsprite tag is used to display a named sprite if it exists.  If the named sprite does not actually exist yet it will instead return the given wiki text.
 
 Basic Syntax:
@@ -93,7 +93,7 @@ Basic Syntax:
 	|wikitext={{SpriteNotFound}}
 	}}
 
-####Parameters for #ifsprite Tag
+#### Parameters for #ifsprite Tag
 
 | Parameter | Description                                                                                                                                               |
 |----------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Basic Syntax:
 | resize    | **Required**: no, **Default**: null<br/>Display size in pixel width of the sprite.  Note: Will not resize larger than 100% of the original size.          |
 | wikitext  | **Required**: yes, **Default**: null<br/>The wiki text to parse and display if the named sprite is not found.  Can be left blank to not display anything. |
 
-####Example
+#### Example
 
 <pre>{{#ifsprite:
 file=File:Hanamura-screenshot.jpg
@@ -111,7 +111,7 @@ file=File:Hanamura-screenshot.jpg
 }}</pre>
 
 
-###\#slice - Parser Tag
+### \#slice - Parser Tag
 The #slice tag takes X and Y positioning along with width and height sizing to select a section of the image.  All four parameters take units in pixels(px) or percentages(%), but they all must use the same unit.
 
 Basic Syntax:
@@ -140,7 +140,7 @@ With optional resize and link:
 	|link=ExampleArticle
 	}}
 
-####Parameters for #slice Tag
+#### Parameters for #slice Tag
 
 | Parameter | Description                                                                                                                                      |
 |----------:|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ With optional resize and link:
 | resize    | **Required**: no, **Default**: null<br/>Display size in pixel width of the sprite.  Note: Will not resize larger than 100% of the original size. |
 | link      | **Required**: no, **Default**: null<br/>Page name or external URL to have the sprite link to.                                                    |
 
-####Example
+#### Example
 
 <pre>{{#slice:
 file=File:Hanamura-screenshot.jpg
@@ -165,7 +165,7 @@ file=File:Hanamura-screenshot.jpg
 ![](documentation/SliceUsageExample.png)
 
 
-###\#ifslice - Parser Tag
+### \#ifslice - Parser Tag
 The #ifslice tag is used to display a named slice if it exists.  If the named slice does not actually exist yet it will instead return the given wiki text.
 
 Basic Syntax:
@@ -176,7 +176,7 @@ Basic Syntax:
 	|wikitext={{SpriteNotFound}}
 	}}
 
-####Parameters for #ifslice Tag
+#### Parameters for #ifslice Tag
 
 | Parameter | Description                                                                                                                                              |
 |----------:|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Basic Syntax:
 | resize    | **Required**: no, **Default**: null<br/>Display size in pixel width of the slice.  Note: Will not resize larger than 100% of the original size.          |
 | wikitext  | **Required**: yes, **Default**: null<br/>The wiki text to parse and display if the named slice is not found.  Can be left blank to not display anything. |
 
-####Example
+#### Example
 
 <pre>{{#ifslice:
 file=File:Hanamura-screenshot.jpg
@@ -193,7 +193,7 @@ file=File:Hanamura-screenshot.jpg
 |wikitext=[http://www.example.com/ Use This Example]
 }}</pre>
 
-##Naming Sprites/Slices
+## Naming Sprites/Slices
 
 ![](documentation/SpriteNaming.png)
 
