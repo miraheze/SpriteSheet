@@ -91,7 +91,7 @@ class SpriteSheetAPI extends ApiBase {
 							$response = $this->deleteSpriteName();
 							break;
 						default:
-							$this->dieUsageMsg(['invaliddo', $this->params['do']]);
+							$this->dieWithError(['invaliddo', $this->params['do']]);
 							break;
 					}
 				}
