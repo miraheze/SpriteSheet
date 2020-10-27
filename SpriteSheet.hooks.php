@@ -164,7 +164,7 @@ class SpriteSheetHooks {
 		if ($title !== null && $title->isKnown()) {
 			$spriteSheet = SpriteSheet::newFromTitle($title, true);
 
-			if (!$spriteSheet->getId() || !$spriteSheet->getColumns() || !$spriteSheet->getRows()) {
+			if (!$spriteSheet || !$spriteSheet->getId() || !$spriteSheet->getColumns() || !$spriteSheet->getRows()) {
 				//Either a sprite sheet does not exist or has invalid values.
 				self::setError('no_sprite_sheet_defined', [$title->getPrefixedText()]);
 				return self::makeErrorBox();
