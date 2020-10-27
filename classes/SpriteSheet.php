@@ -904,7 +904,7 @@ class SpriteSheetRemote extends SpriteSheet {
 
 				if ($data) {
 					$spriteData = FormatJson::decode($data, true);
-					if ($spriteData['success'] === true && is_array($spriteData['data']) && $spriteData['data']['title'] == $this->getTitle()->getDBkey()) {
+					if (isset( $spriteData['success'] ) && $spriteData['success'] === true && is_array($spriteData['data']) && $spriteData['data']['title'] == $this->getTitle()->getDBkey()) {
 						$this->setColumns($spriteData['data']['columns']);
 						$this->setRows($spriteData['data']['rows']);
 						$this->setInset($spriteData['data']['inset']);
