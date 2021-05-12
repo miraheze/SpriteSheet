@@ -448,11 +448,7 @@ class SpriteSheetHooks {
 	 * @return	string	HTML Error
 	 */
 	static private function makeErrorBox() {
-		return "
-		<div class='errorbox'>
-			<strong>SpriteSheet</strong><br/>
-			".implode("<br/>\n", self::$errors)."
-		</div>";
+		return Html::errorBox( implode( "<br/>\n", self::$errors ), 'SpriteSheet' );
 	}
 
 	/**
