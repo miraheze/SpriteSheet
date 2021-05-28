@@ -10,6 +10,8 @@
  *
  **/
 
+use MediaWiki\MediaWikiServices;
+
 class SpriteSheetHooks {
 	/**
 	 * Valid parameters.
@@ -501,10 +503,14 @@ class SpriteSheetHooks {
 		}
 
 		$logLink = Linker::link(SpecialPage::getTitleFor('Log'), wfMessage('sprite_sheet_log')->escaped(), [], ['page' => self::$spriteSheet->getTitle()->getPrefixedText()]);
+		$services = MediaWikiServices::getInstance();
 
 		//Permission checks.
 		$canEdit = true;
-		if (!$wgUser->isAllowed('edit_sprites') || !$imagePage->getTitle()->userCan('edit')) {
+		if (
+			!$services->getPermissionManager()->userHasRight( $wgUser, 'edit_sprites' ) ||
+			!$services->getPermissionManager()->userCan( 'edit', $wgUser, $imagePage->getTitle() )
+		) {
 			$canEdit = false;
 		}
 
