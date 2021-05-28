@@ -509,7 +509,7 @@ class SpriteSheetHooks {
 		$canEdit = true;
 		if (
 			!$services->getPermissionManager()->userHasRight( $wgUser, 'edit_sprites' ) ||
-			!$services->getPermissionManager()->userCan( 'edit', $wgUser, $imagePage )
+			!$services->getPermissionManager()->userCan( 'edit', $wgUser, $imagePage->getTitle() )
 		) {
 			$canEdit = false;
 		}
