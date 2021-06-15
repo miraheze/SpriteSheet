@@ -67,7 +67,7 @@ class SpriteSheet {
 	 * @return	void
 	 */
 	public function __construct() {
-		$this->DB = wfGetDB(DB_MASTER);
+		$this->DB = wfGetDB( DB_PRIMARY );
 	}
 
 	/**
@@ -755,7 +755,7 @@ class SpriteSheet {
 	 * @return	mixed	Next revision ID or false if it is not an old revision.
 	 */
 	static public function getNextRevisionId($revisionId) {
-		$DB = wfGetDB(DB_MASTER);
+		$DB = wfGetDB( DB_PRIMARY );
 
 		$revResult = $DB->select(
 			['spritesheet_rev'],

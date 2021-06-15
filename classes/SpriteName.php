@@ -65,7 +65,7 @@ class SpriteName {
 	 * @return	void
 	 */
 	public function __construct(SpriteSheet $spriteSheet) {
-		$this->DB = wfGetDB(DB_MASTER);
+		$this->DB = wfGetDB( DB_PRIMARY );
 
 		if (!$spriteSheet->exists()) {
 			throw new MWException(__METHOD__." was called with an invalid SpriteSheet.");
@@ -522,7 +522,7 @@ class SpriteName {
 	 * @return	mixed	SpriteName or false for no previous revision.
 	 */
 	static public function newFromRevisionId($revisionId) {
-		$DB = wfGetDB(DB_MASTER);
+		$DB = wfGetDB( DB_PRIMARY );
 
 		$revResult = $DB->select(
 			['spritename_rev'],
@@ -567,7 +567,7 @@ class SpriteName {
 	 * @return	mixed	Next revision ID or false if it is not an old revision.
 	 */
 	static public function getNextRevisionId($revisionId) {
-		$DB = wfGetDB(DB_MASTER);
+		$DB = wfGetDB( DB_PRIMARY );
 
 		$revResult = $DB->select(
 			['spritename_rev'],
