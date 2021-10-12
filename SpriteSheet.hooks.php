@@ -481,8 +481,7 @@ class SpriteSheetHooks {
 	 * @return	boolean True
 	 */
 	static public function onImageOpenShowImageInlineBefore(ImagePage $imagePage, OutputPage $output) {
-		global $wgUser;
-
+		$user = RequestContext::getMain()->getUser();
 		$output->addModules('ext.spriteSheet');
 
 		if (strpos($imagePage->getDisplayedFile()->getMimeType(), 'image/') === false) {
@@ -508,8 +507,8 @@ class SpriteSheetHooks {
 		//Permission checks.
 		$canEdit = true;
 		if (
-			!$services->getPermissionManager()->userHasRight( $wgUser, 'edit_sprites' ) ||
-			!$services->getPermissionManager()->userCan( 'edit', $wgUser, $imagePage->getTitle() )
+			!$services->getPermissionManager()->userHasRight( $user, 'edit_sprites' ) ||
+			!$services->getPermissionManager()->userCan( 'edit', $user, $imagePage->getTitle() )
 		) {
 			$canEdit = false;
 		}
@@ -532,8 +531,9 @@ class SpriteSheetHooks {
 	 * @return	boolean	If rollbacks were performed.
 	 */
 	static private function checkAndDoRollbacks() {
-		global $wgRequest, $wgUser;
+		global $wgRequest;
 
+		$user = RequestContext::getMain()->getUser();
 		$action = $wgRequest->getVal('sheetAction', false);
 
 		if (($action == 'diff' || $action == 'rollback')) {
@@ -541,7 +541,7 @@ class SpriteSheetHooks {
 			if ($wgRequest->getInt('sheetPreviousId') > 0) {
 				self::$oldSpriteSheet = self::$spriteSheet->getRevisionById($wgRequest->getInt('sheetPreviousId'));
 
-				if ($action == 'rollback' && $wgUser->isAllowed('spritesheet_rollback') && self::$oldSpriteSheet !== false) {
+				if ($action == 'rollback' && $user->isAllowed('spritesheet_rollback') && self::$oldSpriteSheet !== false) {
 					//Perform the rollback then redirect to this page with a success message and the editor opened.
 					self::$spriteSheet->setColumns(self::$oldSpriteSheet->getColumns());
 					self::$spriteSheet->setRows(self::$oldSpriteSheet->getRows());
@@ -555,7 +555,7 @@ class SpriteSheetHooks {
 			if ($wgRequest->getInt('spritePreviousId') > 0) {
 				$oldSpriteName = SpriteName::newFromRevisionId($wgRequest->getInt('spritePreviousId'));
 
-				if ($action == 'rollback' && $wgUser->isAllowed('spritesheet_rollback') && $oldSpriteName !== false && $oldSpriteName->getId()) {
+				if ($action == 'rollback' && $user->isAllowed('spritesheet_rollback') && $oldSpriteName !== false && $oldSpriteName->getId()) {
 					$spriteName = SpriteName::newFromId($oldSpriteName->getId(), self::$spriteSheet);
 					if ($spriteName !== false && $spriteName->getId()) {
 						$spriteName->setName($oldSpriteName->getName());
