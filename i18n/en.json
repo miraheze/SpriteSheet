@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": ["Alexia E. Smith"]
+		"authors": [
+			"Alexia E. Smith",
+			"Universal Omega"
+		]
 	},
+	"action-edit_sprites": "edit spritesheets",
+	"action-spritesheet_rollback": "rollback spritesheet changes",
+	"apihelp-spritesheet-summary": "SpriteSheet API",
 	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "Defines and displays sprite sheets from uploaded files.",
 	"sprite_sheet": "Sprite Sheet",
@@ -34,17 +40,17 @@
 	"ss_api_sprite_name_in_use": "That sprite name is already in use on this sheet.  Please delete it first.",
 	"wrong_named_sprite_slice": "A matching named sprite or slice was found, but the incorrect tag was used.  Please change the tag to match.",
 	"ss_api_no_permission": "You do not have permission to edit or modify sprites.",
-    "sprite_log_name": "SpriteSheet change log",
-    "sprite_log_description": "This is the log of sprite sheets that have been created or saved.",
+	"sprite_log_name": "SpriteSheet change log",
+	"sprite_log_description": "This is the log of sprite sheets that have been created or saved.",
 	"sprite_sheet_log": "change log",
-    "logentry-sprite-sheet-created": "$1 created the sprite sheet for $3",
-    "logentry-sprite-sheet-edited": "$1 edited the sprite sheet for $3 ($4)",
-    "logentry-sprite-sprite": "$1 edited the sprite \"$4\" for $3 $5",
-    "logentry-sprite-sprite-deleted": "$1 deleted the sprite \"$4\" for $3 $5",
-    "logentry-sprite-sprite-rename": "$1 renamed the sprite \"$6\" to \"$4\" for $3 $5",
-    "logentry-sprite-slice": "$1 edited the slice \"$4\" for $3 $5",
-    "logentry-sprite-slice-deleted": "$1 deleted the slice \"$4\" for $3 $5",
-    "logentry-sprite-slice-rename": "$1 renamed the slice \"$6\" to \"$4\" for $3 $5",
+	"logentry-sprite-sheet-created": "$1 created the sprite sheet for $3",
+	"logentry-sprite-sheet-edited": "$1 edited the sprite sheet for $3 ($4)",
+	"logentry-sprite-sprite": "$1 edited the sprite \"$4\" for $3 $5",
+	"logentry-sprite-sprite-deleted": "$1 deleted the sprite \"$4\" for $3 $5",
+	"logentry-sprite-sprite-rename": "$1 renamed the sprite \"$6\" to \"$4\" for $3 $5",
+	"logentry-sprite-slice": "$1 edited the slice \"$4\" for $3 $5",
+	"logentry-sprite-slice-deleted": "$1 deleted the slice \"$4\" for $3 $5",
+	"logentry-sprite-slice-rename": "$1 renamed the slice \"$6\" to \"$4\" for $3 $5",
 	"show_named_sprites": "Show Named Sprites/Slices",
 	"hide_named_sprites": "Hide Named Sprites/Slices",
 	"no_results_named_sprites": "No named sprites or slices found.",
