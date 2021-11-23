@@ -24,15 +24,15 @@
 		"edit_sprites",
 		"spritesheet_rollback"
 	],
-	"LogTypes": {
-		"sprite": "sprite"
-	},
 	"LogNames": {
 		"sprite": "sprite_log_name"
 	},
 	"LogHeaders": {
 		"sprite": "sprite_log_description"
 	},
+	"LogTypes": [
+		"sprite"
+	],
 	"LogActionsHandlers": {
 		"sprite/sheet": "SpriteSheetLogFormatter",
 		"sprite/sprite": "SpriteNameLogFormatter",
