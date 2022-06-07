@@ -200,7 +200,7 @@ class SpriteSheetHooks {
 			return self::makeErrorBox();
 		}
 
-		$parser->getOutput()->addModules('ext.spriteSheet');
+		$parser->getOutput()->addModules(['ext.spriteSheet']);
 
 		return [
 			$html,
@@ -305,7 +305,7 @@ class SpriteSheetHooks {
 					$html = $spriteSheet->getSliceHtml($parameters['x']['number'], $parameters['y']['number'], $parameters['width']['number'], $parameters['height']['number'], $parameters['resize']['number'], $parameters['link'], $pixelMode);
 				}
 
-				$parser->getOutput()->addModules('ext.spriteSheet');
+				$parser->getOutput()->addModules(['ext.spriteSheet']);
 
 				return [
 					$html,
@@ -482,7 +482,7 @@ class SpriteSheetHooks {
 	 */
 	static public function onImageOpenShowImageInlineBefore(ImagePage $imagePage, OutputPage $output) {
 		$user = RequestContext::getMain()->getUser();
-		$output->addModules('ext.spriteSheet');
+		$output->addModules(['ext.spriteSheet']);
 
 		if (strpos($imagePage->getDisplayedFile()->getMimeType(), 'image/') === false) {
 			//Can not sprite sheet non-images.
