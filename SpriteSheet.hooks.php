@@ -349,7 +349,8 @@ class SpriteSheetHooks {
 	static private function getTitleFromFileName($file) {
 		$title = Title::newFromDBKey($file);
 		if ($title->isRedirect()) {
-			$oldPage = WikiPage::factory($title);
+			$wikiPageFactory = MediaWikiServices::getInstance()->getWikiPageFactory();
+			$oldPage = $wikiPageFactory->newFromTitle($title);
 			$newTitle = $oldPage->getRedirectTarget();
 			if ($newTitle !== null) {
 				$title = $newTitle;
