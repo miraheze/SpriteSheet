@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": ["Alexia E. Smith"]
+		"authors": [
+			"Alexia E. Smith"
+		]
 	},
 	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "Defines and displays sprite sheets from uploaded files.",
@@ -34,16 +36,15 @@
 	"ss_api_sprite_name_in_use": "API return message displayed to the user that the sprite or slice name they provided is already in use on this sprite sheet.",
 	"wrong_named_sprite_slice": "When using the {{#sprite:}} or {{#slice:}} tags this error will be displayed if the user specified a named sprite while using the #slice tag and the reverse.",
 	"ss_api_no_permission": "API return message displayed to the user that they do not have permissiont to edit sprite sheets.",
-    "sprite_log_name": "Sprite sheet change log title, displayed on the sprite sheet editor form and on the change log page.",
-    "sprite_log_description": "Description of the sprite sheet change log.",
+	"sprite_log_name": "Sprite sheet change log title, displayed on the sprite sheet editor form and on the change log page.",
+	"sprite_log_description": "Description of the sprite sheet change log.",
 	"sprite_sheet_log": "Short version of the sprite sheet log title usable in sentenances.",
-    "logentry-sprite-sheet": "$1 is the user name of the user that perform the action.  $3 is the sprite sheet/page title being edited.  $4 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-sprite": "$1 is the user name of the user that perform the action.  $4 is the name of the sprite being edited.  $3 is the sprite sheet/page title being edited.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-sprite-deleted": "$1 is the user name of the user that perform the action.  $4 is the name of the sprite being deleted.  $3 is the sprite sheet/page title containing the sprite name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-sprite-rename": "$1 is the user name of the user that perform the action.  $6 is the OLD name of the sprite being renamed.  $4 is the NEW name of the sprite being renamed.  $3 is the sprite sheet/page title containing the sprite name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-slice": "$1 is the user name of the user that perform the action.  $4 is the name of the slice being edited.  $3 is the sprite sheet/page title being edited.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-slice-deleted": "$1 is the user name of the user that perform the action.  $4 is the name of the slice being deleted.  $3 is the sprite sheet/page title containing the slice name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
-    "logentry-sprite-slice-rename": "$1 is the user name of the user that perform the action.  $6 is the OLD name of the slice being renamed.  $4 is the NEW name of the slice being renamed.  $3 is the sprite sheet/page title containing the slice name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-sprite": "$1 is the user name of the user that perform the action.  $4 is the name of the sprite being edited.  $3 is the sprite sheet/page title being edited.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-sprite-deleted": "$1 is the user name of the user that perform the action.  $4 is the name of the sprite being deleted.  $3 is the sprite sheet/page title containing the sprite name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-sprite-rename": "$1 is the user name of the user that perform the action.  $6 is the OLD name of the sprite being renamed.  $4 is the NEW name of the sprite being renamed.  $3 is the sprite sheet/page title containing the sprite name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-slice": "$1 is the user name of the user that perform the action.  $4 is the name of the slice being edited.  $3 is the sprite sheet/page title being edited.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-slice-deleted": "$1 is the user name of the user that perform the action.  $4 is the name of the slice being deleted.  $3 is the sprite sheet/page title containing the slice name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
+	"logentry-sprite-slice-rename": "$1 is the user name of the user that perform the action.  $6 is the OLD name of the slice being renamed.  $4 is the NEW name of the slice being renamed.  $3 is the sprite sheet/page title containing the slice name.  $5 is a standard set of action links(rollback, diff) and generally should be left at the end.",
 	"show_named_sprites": "Form button label for \"Show Named Sprites/Slices\"",
 	"hide_named_sprites": "Form button label for \"Hide Named Sprites/Slices\"",
 	"no_results_named_sprites": "Helper message displayed to users after clicking \"Show Named Sprites/Slices\" when no results were returned.",

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"action-edit_sprites": "уредување на табли за сликовни извадоци",
+	"action-spritesheet_rollback": "отповикај промени во таблите за сликовни извадоци",
+	"apihelp-spritesheet-summary": "Приложник на Таблите за сликовни извадоци",
+	"spritesheet": "Табла за сликовни извадоци",
+	"spritesheet_description": "Определува и прикажува табли за сликовни извадоци од подигнати податотеки.",
+	"sprite_sheet": "Табла за сликовни извадоци",
+	"sprite_columns": "Столбови",
+	"sprite_rows": "Редови",
+	"sprite_inset": "Вметок (px)",
+	"spritesheet_editor": "Уредник на табли за сликовни извадоци",
+	"ss_api_unknown_error": "Се јави непозната грешка при обработката на вашето барање на приложникот.",
+	"ss_api_must_be_posted": "Повикот на приложникот мора да се врши како POST-барање.",
+	"ss_api_bad_title": "Не можев да вчитам табла за сликовни извадоци од наслов на страница.",
+	"ss_api_fatal_error_sprite_sheet_not_found": "Не можев да најдам табла за сликовни извадоци од бараниот наслов.",
+	"ss_api_okay": "Во ред",
+	"sprite_log_name": "Дневник на промени во Таблите за сликовни извадоци",
+	"logentry-sprite-sheet-created": "$1 создаде табла за сликовни извадоци за $3",
+	"logentry-sprite-sheet-edited": "$1 уреди  табла за сликовни извадоци за $3 ($4)",
+	"logentry-sprite-sprite": "$1 го уреди сликовниот извадок „$4“ за $3 $5",
+	"logentry-sprite-sprite-deleted": "$1 го избриша сликовниот извадок „$4“ за $3 $5",
+	"logentry-sprite-sprite-rename": "$1 го преименуваше сликовниот извадок „$6“ во „$4“ за $3 $5",
+	"logentry-sprite-slice": "$1 го уреди парчето „$4“ за $3 $5",
+	"logentry-sprite-slice-deleted": "$1 го избриша парчето „$4“ за $3 $5",
+	"logentry-sprite-slice-rename": "$1 го преименуваше парчето „$6“ во „$4“ за $3 $5",
+	"show_named_sprites": "Прикажи именувани извадоци/парчиња",
+	"hide_named_sprites": "Скриј именувани извадоци/парчиња",
+	"no_results_named_sprites": "Не најдов именувани извадоци или парчиња.",
+	"click_to_edit": "Стиснете за да уредите",
+	"previous_values": "Претходно",
+	"current_values": "Тековно",
+	"spritesheet_error_bad_parameter": "Не го препознавам параметарот „$1“.",
+	"spritesheet_error_parameter_required": "Ќе мора да се укаже параметарот „$1“.",
+	"spritesheet_error_invalid_option": "Укажаната можност „$2“ за параметарот „$1“ не претставува важечка можност за тој параметар.",
+	"slice_error_mixed_units": "Не е допуштено мешање на мерните единици. Укажувајте или постоток (%) или писели (px).",
+	"right-edit_sprites": "Уредувајте сликовни извадоци, парчиња, доделувајте називи и бришете",
+	"right-spritesheet_rollback": "Отповикување на промени во сликовние извадоци од дневник на промени"
+}
