@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"action-edit_sprites": "uređivanje tabla slikovnih izvadaka",
+	"action-spritesheet_rollback": "opozovi promjene tabla slikovnih izvadaka",
+	"apihelp-spritesheet-summary": "Priložnik Table slikovnih izvadaka",
+	"spritesheet": "Tabla slikovnih izvadaka",
+	"spritesheet_description": "Definira i prikazuje table slikovnih izvadaka iz postavljenih datoteka.",
+	"sprite_sheet": "Tabla slikovnih izvadaka",
+	"spritesheet_editor": "Uređivač tabla slikovnih izvadaka",
+	"ss_api_unknown_error": "Došlo je do nepoznate pogreške prilikom obrade vašeg zahtjeva priložnika.",
+	"ss_api_must_be_posted": "Poziv priložnika mora se izvesti kao POST zahtjev.",
+	"ss_api_bad_title": "Nije moguće učitati tablu slikovnih izvadaka s naslova stranice.",
+	"ss_api_fatal_error_deleting_name": "Došlo je do kobne greške prilikom pokušaja brisanja imenovanog izvadka/odsječka. Ili ne postoji, ili je došlo do neusklađenosti.",
+	"click_grid_for_preview": "Pritisnite okvir s rešetkom u nastavku da biste generirali oznaku izvadka ili kliknite i povucite da biste generirali prilagođeni isječak.",
+	"please_select_sprite_type": "Izaberite izvadak ili prvo napravite prilagođeni isječak.",
+	"ss_api_invalid_sprite_name": "Navedeno ime za prilagođeni izvadak ili isječak nije važeće.  Mora imati od 1 do 255 znakova i sadržavati alfanumeričke znakove.",
+	"sprite_log_description": "Ovo je evidencija tabli slikovnih izvadaka koje su napravljene ili sačuvane.",
+	"sprite_sheet_log": "evidencija promjena",
+	"previous_values": "Prethodna",
+	"current_values": "Trenutna",
+	"spritesheet_error_invalid_option": "Navedena opcija \"$2\" za parametar \"$1\" nije važeća opcija za taj parametar.",
+	"slice_error_mixed_units": "Nisu dopuštene mješovite mjerne jedinice. Navedite samo postotak (%) ili piksele (px).",
+	"right-edit_sprites": "Uređujte slikovne izvadke, odsječke, dodijelite nazive i brišite",
+	"right-spritesheet_rollback": "Vraćanje promjena slikovnh izvadaka s evidencije promjena"
+}
