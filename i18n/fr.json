@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Verdy p"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"action-edit_sprites": "modifier des feuilles de sprites",
-	"action-spritesheet_rollback": "annuler les modifications de feuilles de sprites",
+	"action-spritesheet_rollback": "annuler les modifications des feuilles de sprites",
 	"apihelp-spritesheet-summary": "API des feuilles de sprites",
 	"spritesheet": "Feuille de sprites",
 	"spritesheet_description": "Définit et affiche des feuilles de sprites à partir de fichiers téléchargés.",
@@ -38,7 +39,7 @@
 	"ss_api_invalid_sprite_name": "Le nom fourni pour le sprite ou la tranche personnalisée n’est pas valide. Les noms doivent comporter de 1 à 255 caractères et uniquement des caractères alphanumériques.",
 	"ss_api_sprite_name_in_use": "Ce nom de sprite est déjà utilisé sur cette feuille. Veuillez d’abord le supprimer.",
 	"wrong_named_sprite_slice": "Un sprite ou une tranche a été trouvé qui correspond au nom indiqué, mais la balise incorrecte a été utilisée. Veuillez modifier la balise pour qu’elle corresponde.",
-	"ss_api_no_permission": "Vous n’avez pas le droit de créer ou modifier des sprites.",
+	"ss_api_no_permission": "Vous n’avez pas le droit de créer ou de modifier des sprites.",
 	"sprite_log_name": "Journal des modifications de feuilles de sprites",
 	"sprite_log_description": "Ceci est le journal des feuilles de sprites qui ont été créées ou enregistrées.",
 	"sprite_sheet_log": "journal des modifications",
@@ -52,7 +53,7 @@
 	"logentry-sprite-slice-rename": "$1 a renommé la tranche « $6 » en « $4 » pour $3. $5",
 	"show_named_sprites": "Afficher les sprites ou tranches nommés",
 	"hide_named_sprites": "Masquer les sprites ou tranches nommés",
-	"no_results_named_sprites": "Aucun sprite ou tranche nommé n’a été trouvé.",
+	"no_results_named_sprites": "Aucun sprite nommé ni aucune tranche n’a été trouvé.",
 	"click_to_edit": "Cliquer pour modifier",
 	"visit_remote_repository_to_edit_sprite_sheet": "Cette feuille de sprites a été chargée à partir du dépôt distant où est située cette image.\nPour modifier la feuille de sprites, veuillez [$1 visiter la page du fichier sur le dépôt distant].",
 	"previous_values": "Précédent",

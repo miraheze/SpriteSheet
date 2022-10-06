@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lakejason0"
+		]
+	},
+	"action-edit_sprites": "编辑Sprite表",
+	"action-spritesheet_rollback": "回滚Sprite表更改",
+	"apihelp-spritesheet-summary": "Sprite表API",
+	"spritesheet": "SpriteSheet",
+	"spritesheet_description": "定义和显示来自上传文件的Sprite表。",
+	"sprite_sheet": "Sprite表",
+	"sprite_columns": "列",
+	"sprite_rows": "行",
+	"sprite_inset": "Inset（像素）",
+	"spritesheet_editor": "Sprite表编辑器",
+	"ss_api_unknown_error": "处理API请求时出现未知错误。",
+	"ss_api_must_be_posted": "该API调用必须作为POST请求完成。",
+	"ss_api_bad_title": "无法从页面标题加载Sprite表。",
+	"ss_api_fatal_error_sprite_sheet_not_found": "找不到请求标题的Sprite表。",
+	"ss_api_okay": "好的",
+	"save_sheet": "保存表",
+	"click_to_edit": "点击编辑",
+	"previous_values": "先前",
+	"current_values": "当前"
+}
