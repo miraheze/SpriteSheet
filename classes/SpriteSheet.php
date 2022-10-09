@@ -10,6 +10,8 @@
  *
  **/
 
+use MediaWiki\MediaWikiServices;
+
 class SpriteSheet {
 	/**
 	 * Mediawiki Database Object
@@ -443,7 +445,7 @@ class SpriteSheet {
 	 * @return	mixed	HTML or false on error.
 	 */
 	public function getSpriteHtml($column, $row, $thumbWidth = null, $link = false) {
-		$file = wfFindFile($this->getTitle());
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile($this->getTitle());
 
 		$column = intval($column);
 		$row = intval($row);
@@ -602,7 +604,7 @@ class SpriteSheet {
 	 * @return	mixed	HTML or false on error.
 	 */
 	public function getSliceHtml($x, $y, $width, $height, $thumbWidth = null, $link = false, $pixelMode = false) {
-		$file = wfFindFile($this->getTitle());
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile($this->getTitle());
 
 		$link = $this->getUrlFromText($link);
 
@@ -889,7 +891,7 @@ class SpriteSheetRemote extends SpriteSheet {
 	 */
 	public function load($row = null) {
 		if (!$this->isLoaded) {
-			$this->image = wfFindFile($this->getTitle());
+			$this->image = MediaWikiServices::getInstance()->getRepoGroup()->findFile($this->getTitle());
 
 			if ($this->image !== false && $this->image->exists() && !$this->image->isLocal() && $this->image->getRepo() instanceof ForeignAPIRepo) {
 				$query = [
