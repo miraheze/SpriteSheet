@@ -59,6 +59,7 @@ class SpriteSheetAPI extends ApiBase {
 				'message' => wfMessage('ss_api_bad_title')->text()
 			];
 		} else {
+			$response = [];
 			//These do not require permission checks.
 			switch ($this->params['do']) {
 				case 'getSpriteSheet':
