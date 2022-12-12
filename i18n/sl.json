@@ -54,7 +54,7 @@
 	"hide_named_sprites": "Skrij poimenovane like/rezine",
 	"no_results_named_sprites": "Ni najdenih poimenovanih likov ali rezin",
 	"click_to_edit": "Kliknite za urejanje",
-	"visit_remote_repository_to_edit_sprite_sheet": "Ta list likiv je bil naložen iz oddaljenega repozitorija, kjer je shranjena ta slika.\nČe želite ta list likov urediti, [$1 obiščite stran datoteke v oddaljenem repozitoriju].",
+	"visit_remote_repository_to_edit_sprite_sheet": "Ta list likov je bil naložen iz oddaljene shrambe, kjer je shranjena ta slika.\nČe želite ta list likov urediti, [$1 obiščite stran datoteke v oddaljeni shrambi].",
 	"previous_values": "Prejšnje",
 	"current_values": "Trenutne",
 	"spritesheet_error_bad_parameter": "Parameter »$1« ni prepoznan.",
