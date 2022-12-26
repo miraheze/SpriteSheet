@@ -6,7 +6,7 @@
 		]
 	},
 	"action-edit_sprites": "Spritesheets bearbeiten",
-	"action-spritesheet_rollback": "Spritesheet-Änderungen rückgängig machen",
+	"action-spritesheet_rollback": "Spritesheet-Änderungen zurücksetzen",
 	"apihelp-spritesheet-summary": "SpriteSheet-API",
 	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "Definiert und zeigt Sprite Sheets aus hochgeladenen Dateien an.",
