@@ -1,7 +1,5 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
-
 /**
  * SpriteSheet
  * SpriteName Class
@@ -12,6 +10,8 @@ use MediaWiki\MediaWikiServices;
  * @link		https://github.com/CurseStaff/SpriteSheet
  *
  **/
+
+use MediaWiki\MediaWikiServices;
 
 class SpriteName {
 	/**
