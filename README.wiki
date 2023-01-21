@@ -1,5 +1,4 @@
-{{TNT|Extension
-|name        = SpriteSheet
+{{Extension
 |license     = LGPL-3.0
 |status      = stable
 |type        = parser function
@@ -8,39 +7,35 @@
 |update      = 2018-12-10
 |mediawiki   = 1.31+
 |php         = 7.0+
-|download    = {{TNT|GithubDownload|HydraWiki|SpriteSheet}}
+|download    = {{GithubDownload|Miraheze|SpriteSheet}}
 |hook1       = ParserFirstCallInit
 |hook2       = ImagePageShowTOC
 |hook3       = ImageOpenShowImageInlineBefore
 |hook4       = PageRenderingHash
-|hook5       = LoadExtensionSchemaUpdates
+|hook5       = TitleMoveComplete
+|hook6       = LoadExtensionSchemaUpdates
 |description = Adds a parser functions called <code>#sprite</code> and <code>#slice</code> to display defined sections of an image without having to use an external editor.
-|example     = [http://help.gamepedia.com/Extension:SpriteSheet/Example Gamepedia Help Wiki]
+|example     = [http://help.gamepedia.com/Extension:SpriteSheet/Example Fandom Help Wiki]
 }}
 
 The '''SpriteSheet''' extension allows uploaded images to be divided into sprite sheets or custom slices to be displayed without having to use an external image editor.  The resulting sprites and slices are dynamically generated using CSS.
 
-;Project Homepage: [https://github.com/HydraWiki/SpriteSheet Documentation at Github]
-;Mediawiki Extension Page: [https://www.mediawiki.org/wiki/Extension:SpriteSheet Extension:SpriteSheet]
-;Source Code: [https://github.com/HydraWiki/SpriteSheet Source Code at Github]
-;Bugs: [https://github.com/HydraWiki/SpriteSheet/issues Issue Tracker at Github]
-;Licensing: SpriteSheet is released under [http://opensource.org/licenses/lgpl-3.0.html The GNU Lesser General Public License, version 3.0].
-
-
 ==Installation==
 
-{{TNT|ExtensionInstall
+{{ExtensionInstall
 |db-update=true
 |registration=required
-|download-link=[https://github.com/HydraWiki/SpriteSheet/archive/v1.3.2.zip Download]}}
+|download-link=[https://github.com/Miraheze/SpriteSheet Download]}}
 
 ==Configuration==
 There are two available rights that may be assigned to groups, 'edit_sprites' and 'spritesheet_rollback'.  The 'edit_sprites' permission gives the ability to edit sprite sheets, sprites, slices, assign names, and delete.  The 'spritesheet_rollback' allows the ability to rollback changes from the change log.
 
 Default permissions:
 
-<pre><nowiki>$wgGroupPermissions['autoconfirmed']['edit_sprites'] = true;
-$wgGroupPermissions['sysop']['spritesheet_rollback'] = true;</nowiki></pre>
+<syntaxhighlight lang=php>
+$wgGroupPermissions['autoconfirmed']['edit_sprites'] = true;
+$wgGroupPermissions['sysop']['spritesheet_rollback'] = true;
+</syntaxhighlight>
 
 ==Usage==
 
@@ -287,5 +282,7 @@ After a sprite or slice has been selected a pop up will open under the tag previ
 <pre>{{#sprite:file=File:Hanamura-screenshot.jpg|name=Plaque|resize=800}}</pre>
 <pre>{{#slice:file=File:Hanamura-screenshot.jpg|name=Plaque}}</pre>
 <pre>{{#slice:file=File:Hanamura-screenshot.jpg|name=Plaque|resize=500}}</pre>
+
+{{Used by|miraheze=1}}
 
 [[Category:Image extensions]]
