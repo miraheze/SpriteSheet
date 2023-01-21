@@ -1,9 +1,9 @@
 The **SpriteSheet** extension allows uploaded images to be divided into sprite sheets or custom slices to be displayed without having to use an external image editor.  The resulting sprites and slices are dynamically generated using CSS.
 
-* **Project Homepage:** [Documentation at Github](https://github.com/CurseStaff/SpriteSheet)
+* **Project Homepage:** [Documentation at Github](https://github.com/miraheze/SpriteSheet)
 * **Mediawiki Extension Page:** [Extension:SpriteSheet](https://www.mediawiki.org/wiki/Extension:SpriteSheet)
-* **Source Code:** [Source Code at Github](https://github.com/CurseStaff/SpriteSheet)
-* **Bugs:** [Issue Tracker at Github](https://github.com/CurseStaff/SpriteSheet/issues)
+* **Source Code:** [Source Code at Github](https://github.com/miraheze/SpriteSheet)
+* **Bugs:** [Issue Tracker at Github](https://github.com/miraheze/SpriteSheet/issues)
 * **Licensing:** SpriteSheet is released under [The GNU Lesser General Public License, version 3.0](http://opensource.org/licenses/lgpl-3.0.html).
 
 
@@ -13,7 +13,7 @@ Download and place the file(s) in a directory called SpriteSheet in your extensi
 
 Add the following code at the bottom of your LocalSettings.php:
 
-	require_once("$IP/extensions/SpriteSheet/SpriteSheet.php");
+	wfLoadExtension("SpriteSheet");
 	
 Enter the following command into your console or terminal on the server to update the database:
 	
