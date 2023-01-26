@@ -19,7 +19,7 @@
 	"ss_api_bad_title": "Z naslova strani ni bilo mogoče naložiti lista likov.",
 	"ss_api_fatal_error_sprite_sheet_not_found": "Lista likov za zahtevani naslov ni bilo mogoče najti.",
 	"ss_api_fatal_error_deleting_name": "Pri poskusu brisanja navedenega lika/rezine je prišlo do usodne napake. Bodisi ne obstaja ali pa je prišlo do neskladja.",
-	"ss_api_fatal_error_saving": "Pri poskusu shranjevanja lista likov v zbirko podatkov je prišlo do usodne napake. Transakcija je bila razveljavljena.",
+	"ss_api_fatal_error_saving": "Pri poskusu shranjevanja lista likov v podatkovno zbirko je prišlo do usodne napake. Transakcija je bila razveljavljena.",
 	"ss_api_invalid_coordinates": "Neveljavne koordinate ali koordinate zunaj meja.",
 	"ss_api_invalid_percentages": "Neveljavni odstotki ali odstotki zunaj meja.",
 	"ss_api_okay": "V redu",
