@@ -62,6 +62,6 @@
 	"spritesheet_error_parameter_required": "Le paramètre « $1 » est obligatoire et doit être fourni.",
 	"spritesheet_error_invalid_option": "L’option « $2 » spécifiée pour le paramètre « $1 » n’est pas une option valide pour ce paramètre.",
 	"slice_error_mixed_units": "Les unités de mesure mixtes ne sont pas autorisées. Veuillez spécifier uniquement des pourcentages (%) ou des pixels (px).",
-	"right-edit_sprites": "Modifier des feuilles de sprites, des sprites, des tranches, leur attribuer des noms et les supprimer",
+	"right-edit_sprites": "Modifier des feuilles de sprites, des sprites, des tranches, leur affecter des noms et les supprimer",
 	"right-spritesheet_rollback": "Annulation des modifications de la feuille de sprites à partir du journal des modifications"
 }
