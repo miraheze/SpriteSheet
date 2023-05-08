@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alexia E. Smith"
+			"Alexia E. Smith",
+			"Shirayuki"
 		]
 	},
+	"action-edit_sprites": "{{doc-action|edit sprites}}",
 	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "Defines and displays sprite sheets from uploaded files.",
 	"sprite_sheet": "Sprite Sheet",
@@ -56,6 +58,6 @@
 	"spritesheet_error_parameter_required": "Error message displayed to the user when using the {{#sprite:}} or {{#slice:}} tags that a parameter is required, but was not specified in the tag.  The required parameter will be displayed in $1.",
 	"spritesheet_error_invalid_option": "Error message displayed to the user when using the {{#sprite:}} or {{#slice:}} tags that a parameter passed has an invalid value.  The parameter will be displayed in $1 and the invalid value will be display in $2.",
 	"slice_error_mixed_units": "When using the {{#slice:}} tag this error will be displayed to the user if they mix percentage(%) and pixel(px) units of measurement.",
-	"right-edit_sprites": "Edit spritesheets, sprites, slices, assign names, and delete",
+	"right-edit_sprites": "{{doc-right|edit sprites}}",
 	"right-spritesheet_rollback": "Rollback spritesheet changes from the change log"
 }
