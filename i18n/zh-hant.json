@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Willy1018"
+			"Willy1018",
+			"捍粵者"
 		]
 	},
 	"action-edit_sprites": "編輯拼合圖表",
@@ -54,7 +55,7 @@
 	"show_named_sprites": "顯示命名的拼合圖/分割",
 	"hide_named_sprites": "隱藏命名的拼合圖/分割",
 	"no_results_named_sprites": "找不到命名的拼合圖或分割。",
-	"click_to_edit": "點擊進行編輯",
+	"click_to_edit": "點擊編輯",
 	"visit_remote_repository_to_edit_sprite_sheet": "此拼合圖表是從該圖片所在的遠端存儲庫裡載入的。\n要編輯拼合表表，請[$1 參訪在遠端存儲庫上的檔案頁面]。",
 	"previous_values": "前一個",
 	"current_values": "目前",
