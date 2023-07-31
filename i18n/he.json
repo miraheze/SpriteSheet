@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Dee",
+			"YaronSh",
+			"מקף"
+		]
+	},
+	"action-edit_sprites": "לערוך גיליונות דמויות",
+	"action-spritesheet_rollback": "לשחזר שינויים בגיליונות דמויות",
+	"apihelp-spritesheet-summary": "API של SpriteSheet",
+	"spritesheet_description": "הגדרה והצגה של גיליונות של דומיות (sprites) מקבצים שהועלו.",
+	"sprite_sheet": "גיליון דמויות",
+	"sprite_columns": "עמודות",
+	"sprite_rows": "שורות",
+	"sprite_inset": "כניסה (פיקסלים)",
+	"spritesheet_editor": "עורך גיליונות דמויות",
+	"ss_api_unknown_error": "אירעה שגיאה לא ידועה בהפעלה של בקשת ה־API.",
+	"ss_api_must_be_posted": "קריאת ה־API הזאת חייבת להיעשות כבקשת POST.",
+	"ss_api_bad_title": "לא היה אפשר לטעון את גיליון הדמויות מכותרת הדף.",
+	"ss_api_fatal_error_sprite_sheet_not_found": "לא ניתן למצוא את גיליון הדמויות עבור הכותרת הנדרשת.",
+	"ss_api_fatal_error_deleting_name": "אירעה שגיאה סופנית בניסיון למחוק את הדמות או החתיכה המוצגת. או שזה לא קיים או שהייתה אי־התאמה.",
+	"ss_api_okay": "בסדר",
+	"save_sheet": "שמירת גיליון",
+	"save_named_sprite": "שמירת דמות בעלת שם",
+	"save_named_slice": "שמירת חתיכה בעלת שם",
+	"update_name": "עדכון שם",
+	"delete_name": "מחיקת שם",
+	"sprite_sheet_log": "יומן שינויים",
+	"click_to_edit": "יש ללחוץ כדי לערוך",
+	"previous_values": "הקודם",
+	"current_values": "נוכחית",
+	"spritesheet_error_bad_parameter": "הפרמטר \"$1\" אינו מזוהה."
+}

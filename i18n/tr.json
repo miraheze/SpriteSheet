@@ -7,7 +7,6 @@
 	"action-edit_sprites": "grafik sayfalarını düzenle",
 	"action-spritesheet_rollback": "grafik sayfa değişikliklerini geri al",
 	"apihelp-spritesheet-summary": "SpriteSheet API",
-	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "Karşıya yüklenen dosyalardan hareketli grafik sayfaları tanımlar ve görüntüler.",
 	"sprite_sheet": "Sprite Sheet",
 	"sprite_columns": "Sütunlar",

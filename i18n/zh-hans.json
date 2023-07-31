@@ -7,7 +7,6 @@
 	"action-edit_sprites": "编辑Sprite表",
 	"action-spritesheet_rollback": "回滚Sprite表更改",
 	"apihelp-spritesheet-summary": "Sprite表API",
-	"spritesheet": "SpriteSheet",
 	"spritesheet_description": "定义和显示来自上传文件的Sprite表。",
 	"sprite_sheet": "Sprite表",
 	"sprite_columns": "列",
