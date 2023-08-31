@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Buehl",
+			"M1660661",
+			"MagicAho",
+			"MathXplore",
+			"Mugenpman",
+			"Shirayuki"
+		]
+	},
+	"action-edit_sprites": "スプライトシートの編集",
+	"action-spritesheet_rollback": "スプライトシートの変更をロールバックする",
+	"spritesheet": "スプライトシート",
+	"spritesheet_description": "アップロードされたファイルからスプライト シートを定義して表示します。",
+	"sprite_sheet": "スプライトシート",
+	"sprite_columns": "列数",
+	"sprite_rows": "行数",
+	"sprite_inset": "インセット (ピクセル)",
+	"spritesheet_editor": "スプライトシートエディタ",
+	"ss_api_unknown_error": "API リクエストの処理中に不明なエラーが発生しました。",
+	"ss_api_must_be_posted": "その API 呼び出しは POST リクエストとして実行する必要があります。",
+	"ss_api_bad_title": "ページタイトルからスプライトシートを読み込めませんでした。",
+	"ss_api_fatal_error_sprite_sheet_not_found": "要求されたタイトルの SpriteSheet が見つかりませんでした。",
+	"ss_api_okay": "OK",
+	"save_sheet": "シートを保存",
+	"update_name": "名前を更新",
+	"delete_name": "ページを削除",
+	"sprite_sheet_log": "変更履歴",
+	"click_to_edit": "クリックして編集する",
+	"previous_values": "前",
+	"current_values": "現在",
+	"slice_error_mixed_units": "測定単位を混在させることはできません。パーセンテージ (%) またはピクセル (px) のみを指定してください。",
+	"right-edit_sprites": "スプライトシート、スプライト、スライスを編集、名前を割り当て、削除"
+}
