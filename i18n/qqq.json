@@ -3,6 +3,7 @@
 		"authors": [
 			"Alexia E. Smith",
 			"Amire80",
+			"McDutchie",
 			"Shirayuki"
 		]
 	},
@@ -41,7 +42,7 @@
 	"ss_api_no_permission": "API return message displayed to the user that they do not have permissiont to edit sprite sheets.",
 	"sprite_log_name": "Sprite sheet change log title, displayed on the sprite sheet editor form and on the change log page.",
 	"sprite_log_description": "Description of the sprite sheet change log.",
-	"sprite_sheet_log": "Short version of the sprite sheet log title usable in sentenances.",
+	"sprite_sheet_log": "Short version of the sprite sheet log title usable in sentences.",
 	"logentry-sprite-sheet-created": "{{Logentry}}",
 	"logentry-sprite-sheet-edited": "{{Logentry}}",
 	"logentry-sprite-sprite": "{{Logentry}}\n* $4 is the name of the sprite being edited.\n* $3 is the sprite sheet/page title being edited.\n* $5 is a standard set of action links (rollback, diff) and generally should be left at the end.",
