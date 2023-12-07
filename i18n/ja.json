@@ -7,6 +7,7 @@
 			"MathXplore",
 			"Mugenpman",
 			"Shirayuki",
+			"もなー(偽物)",
 			"背番号4のエース"
 		]
 	},
@@ -40,6 +41,8 @@
 	"sprite_log_name": "SpriteSheet変更履歴",
 	"sprite_log_description": "スプライトシートを作成・保存したログです。",
 	"sprite_sheet_log": "変更履歴",
+	"logentry-sprite-slice": "$1がスライス \" $4 \" を$3 $5用に編集しました",
+	"logentry-sprite-slice-deleted": "$1が$3 $5のスライス \" $4 \" を削除しました",
 	"show_named_sprites": "名前付きスプライト/スライスを表示",
 	"hide_named_sprites": "名前付きスプライト/スライスを非表示にする",
 	"no_results_named_sprites": "名前付きのスプライトまたはスライスが見つかりません。",
