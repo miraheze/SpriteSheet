@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MacOS Weed",
 			"Verdy p",
 			"Wladek92"
 		]
@@ -43,14 +44,14 @@
 	"sprite_log_name": "Journal des modifications de feuilles de sprites",
 	"sprite_log_description": "Ceci est le journal des feuilles de sprites qui ont été créées ou enregistrées.",
 	"sprite_sheet_log": "journal des modifications",
-	"logentry-sprite-sheet-created": "$1 a créé la feuille de sprites pour $3",
-	"logentry-sprite-sheet-edited": "$1 a modifié la feuille de sprites pour $3 ($4)",
-	"logentry-sprite-sprite": "$1 a modifié le sprite « $4 » pour $3. $5",
+	"logentry-sprite-sheet-created": "$1 a {{GENDER:$2|créé}} la feuille de sprites pour $3",
+	"logentry-sprite-sheet-edited": "$1 a {{GENDER:$2|modifié|modifiée|modifié}} la feuille de sprites pour $3 ($4)",
+	"logentry-sprite-sprite": "$1 a {{GENDER:$2|modifié}} le sprite « $4 » pour $3. $5",
 	"logentry-sprite-sprite-deleted": "$1 a supprimé le sprite « $4 » pour $3. $5",
 	"logentry-sprite-sprite-rename": "$1 a renommé le sprite « $6 » en « $4 » pour $3. $5",
-	"logentry-sprite-slice": "$1 a modifié la tranche « $4 » pour $3. $5",
-	"logentry-sprite-slice-deleted": "$1 a supprimé la tranche « $4 » pour $3. $5",
-	"logentry-sprite-slice-rename": "$1 a renommé la tranche « $6 » en « $4 » pour $3. $5",
+	"logentry-sprite-slice": "$1 a {{GENDER:$2|modifié}} la tranche « $4 » pour $3. $5",
+	"logentry-sprite-slice-deleted": "$1 a {{GENDER:$2|supprimé}} la tranche « $4 » pour $3. $5",
+	"logentry-sprite-slice-rename": "$1 a {{GENDER:$2|renommé}} la tranche « $6 » en « $4 » pour $3. $5",
 	"show_named_sprites": "Afficher les sprites ou tranches nommés",
 	"hide_named_sprites": "Masquer les sprites ou tranches nommés",
 	"no_results_named_sprites": "Aucun sprite nommé ni aucune tranche n’a été trouvé.",
