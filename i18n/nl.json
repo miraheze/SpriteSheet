@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Siebrand"
 		]
 	},
 	"action-edit_sprites": "spritesheets te bewerken",
@@ -17,7 +18,7 @@
 	"ss_api_must_be_posted": "Die API-aanroep moet worden ingediend als een POST-verzoek.",
 	"ss_api_bad_title": "Kon de spritesheet niet laden vanuit de paginatitel.",
 	"ss_api_fatal_error_sprite_sheet_not_found": "Er kan geen spritesheet worden gevonden voor de aangevraagde titel.",
-	"ss_api_fatal_error_deleting_name": "Er is een fatale fout opgetreden bij het verwijderen van de benoemde sprite/slice. Ofwel bestaat deze niet, ofwel komen de gegevens niet overeen.",
+	"ss_api_fatal_error_deleting_name": "Er is een fatale fout opgetreden bij het verwijderen van de benoemde sprite of slice. Deze bestaat niet, of de gegevens komen niet overeen.",
 	"ss_api_fatal_error_saving": "Er is een fatale fout opgetreden bij het opslaan van de spritesheet in de database. De transactie is teruggedraaid.",
 	"ss_api_invalid_coordinates": "Ongeldige of buiten bereik gelegen coördinaten.",
 	"ss_api_invalid_percentages": "Ongeldige of buiten bereik staande percentages.",
@@ -41,14 +42,14 @@
 	"sprite_log_name": "Logboek wijziging spritesheets",
 	"sprite_log_description": "Hier wordt het aanmaken en het opslaan van spritesheets gelogd.",
 	"sprite_sheet_log": "wijzigingslogboek",
-	"logentry-sprite-sheet-created": "$1 heeft de spritesheet voor $3 aangemaakt",
-	"logentry-sprite-sheet-edited": "$1 heeft de spritesheet voor $3 gewijzigd ($4)",
-	"logentry-sprite-sprite": "$1 heeft de sprite “$4” voor $3 bewerkt $5",
-	"logentry-sprite-sprite-deleted": "$1 heeft de sprite “$4” voor $3 verwijderd $5",
-	"logentry-sprite-sprite-rename": "$1 heeft de sprite “$6” voor $3 hernoemd tot “$4” $5",
-	"logentry-sprite-slice": "$1 heeft de slice “$4” voor $3 bewerkt $5",
-	"logentry-sprite-slice-deleted": "$1 heeft de slice “$4” voor $3 verwijderd $5",
-	"logentry-sprite-slice-rename": "$1 heeft de slice “$6” voor $3 hernoemd tot “$4” $5",
+	"logentry-sprite-sheet-created": "$1 {{GENDER:$2|heeft}} de spritesheet voor $3 aangemaakt",
+	"logentry-sprite-sheet-edited": "$1 {{GENDER:$2|heeft}} de spritesheet voor $3 gewijzigd ($4)",
+	"logentry-sprite-sprite": "$1 {{GENDER:$2|heeft}} de sprite “$4” voor $3 bewerkt $5",
+	"logentry-sprite-sprite-deleted": "$1 {{GENDER:$2|heeft}} de sprite “$4” voor $3 verwijderd $5",
+	"logentry-sprite-sprite-rename": "$1 {{GENDER:$2|heeft}} de sprite “$6” voor $3 hernoemd tot “$4” $5",
+	"logentry-sprite-slice": "$1 {{GENDER:$2|heeft}} de slice “$4” voor $3 bewerkt $5",
+	"logentry-sprite-slice-deleted": "$1 {{GENDER:$2|heeft}} de slice “$4” voor $3 verwijderd $5",
+	"logentry-sprite-slice-rename": "$1 {{GENDER:$2|heeft}} de slice “$6” voor $3 hernoemd tot “$4” $5",
 	"show_named_sprites": "Benoemde sprites/slices tonen",
 	"hide_named_sprites": "Benoemde sprites/slices verbergen",
 	"no_results_named_sprites": "Er zijn geen benoemde sprites of slices gevonden.",
