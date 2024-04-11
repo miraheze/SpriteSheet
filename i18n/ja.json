@@ -7,6 +7,7 @@
 			"MathXplore",
 			"Mugenpman",
 			"Shirayuki",
+			"Waki285",
 			"もなー(偽物)",
 			"背番号4のエース"
 		]
@@ -25,7 +26,7 @@
 	"ss_api_must_be_posted": "その API 呼び出しは POST リクエストとして実行する必要があります。",
 	"ss_api_bad_title": "ページタイトルからスプライトシートを読み込めませんでした。",
 	"ss_api_fatal_error_sprite_sheet_not_found": "要求されたタイトルの SpriteSheet が見つかりませんでした。",
-	"ss_api_fatal_error_deleting_name": "指定されたスプライト/スライスを削除しようとして致命的なエラーが発生しました。存在しないか、不一致がありました。",
+	"ss_api_fatal_error_deleting_name": "指定されたスプライトもしくはスライスを削除しようとして致命的なエラーが発生しました。存在しないか、不一致がありました。",
 	"ss_api_invalid_coordinates": "座標が無効または範囲外です。",
 	"ss_api_invalid_percentages": "効力のないまたは制限外の割合",
 	"ss_api_okay": "OK",
