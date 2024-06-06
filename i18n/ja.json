@@ -53,6 +53,7 @@
 	"current_values": "現在",
 	"spritesheet_error_bad_parameter": "パラメータ$1が認識されません。",
 	"spritesheet_error_parameter_required": "パラメータ$1を指定してください。",
+	"spritesheet_error_invalid_option": "パラメータ「$1」に指定されたオプション「$2」は、そのパラメータに対して有効なオプションではありません。",
 	"slice_error_mixed_units": "測定単位を混在させることはできません。パーセンテージ (%) またはピクセル (px) のみを指定してください。",
 	"right-edit_sprites": "スプライトシート、スプライト、スライスを編集、名前を割り当て、削除",
 	"right-spritesheet_rollback": "変更ログからスプライトシートの変更を巻き戻す"
