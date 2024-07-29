@@ -50,7 +50,7 @@
 	"logentry-sprite-slice": "$1 {{GENDER:$2|heeft}} de slice “$4” voor $3 bewerkt $5",
 	"logentry-sprite-slice-deleted": "$1 {{GENDER:$2|heeft}} de slice “$4” voor $3 verwijderd $5",
 	"logentry-sprite-slice-rename": "$1 {{GENDER:$2|heeft}} de slice “$6” voor $3 hernoemd tot “$4” $5",
-	"show_named_sprites": "Benoemde sprites/slices tonen",
+	"show_named_sprites": "Benoemde sprites/slices weergeven",
 	"hide_named_sprites": "Benoemde sprites/slices verbergen",
 	"no_results_named_sprites": "Er zijn geen benoemde sprites of slices gevonden.",
 	"click_to_edit": "Klik om te bewerken",
