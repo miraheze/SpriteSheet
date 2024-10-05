@@ -1,3 +1,6 @@
+# ARCHIVED
+This extension is no longer under development and does not support MediaWiki versions newer than 1.38.
+
 The **SpriteSheet** extension allows uploaded images to be divided into sprite sheets or custom slices to be displayed without having to use an external image editor.  The resulting sprites and slices are dynamically generated using CSS.
 
 * **Project Homepage:** [Documentation at Github](https://github.com/miraheze/SpriteSheet)
